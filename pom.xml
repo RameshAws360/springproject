@@ -11,7 +11,7 @@
 <distributionManagement>
   <repository>
     <id>petclinic</id>
-    <url>http://65.1.106.8:8080/repository/PetClinic//</url>
+    <url>http://13.234.37.176:8080/repository/PetClinic//</url>
      
   </repository>
 </distributionManagement>
@@ -19,7 +19,7 @@
     <properties>
 
         <!-- Generic properties in java spring  -->
-        <java.version>1.7</java.version>
+        <java.version>11.0.16</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
@@ -29,7 +29,7 @@
 
 
         <!-- Java EE / Java SE dependencies -->
-        <tomcat.version>7.0.59</tomcat.version>
+        <tomcat.version>9.0.14</tomcat.version>
 
         <!-- Test -->
         <assertj.version>2.2.0</assertj.version>
@@ -366,7 +366,7 @@
                 <artifactId>tomcat7-maven-plugin</artifactId>
                 <version>2.2</version>
                 <configuration>
-				<url>http://65.1.106.8:8080/manager/text</url>
+				<url>http://13.234.37.176:8090/manager/text</url>
                     <server>apache-tomcat</server>
                       <username>admin</username>
     <password>admin</password>
@@ -446,7 +446,7 @@
 <artifactId>tomcat7-maven-plugin</artifactId> 
 <version>2.2</version> 
 <configuration> 
-<url>http://65.1.106.8:8080/manager/text</url> 
+<url>http://13.234.37.176:8090/manager/text</url> 
 <server>apache-tomcat</server> 
     <username>admin</username>
     <password>admin</password>
